@@ -1,0 +1,270 @@
+/* style.css */
+
+/* Fuente */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000; /* Fondo principal negro */
+  color: #fff; /* Texto en blanco */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ccff33; /* Verde neón */
+  border-bottom: 2px solid black;
+  /*font-weight: bold;
+  font-size: 1.1rem;*/
+}
+
+/* Logo */
+.logo-img {
+  height: 60px;
+  margin: 10px 0;
+}
+
+/* Estilo del nav horizontal */
+.nav {
+  border-top: 1px solid black;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  padding: 0 90px;
+  border-right: 1px solid black;
+}
+
+.nav-link:last-child {
+  border-right: none;
+}
+
+.nav-link:hover {
+  color: #5e7e00;
+}
+
+/* Slider */
+.slider-image {
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* WHO ARE WE */
+.who-we-are-section {
+  border-top: 2px solid black;
+  background-color: #ccff33;
+  color: black;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.who-image {
+  max-width: 65%; 
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.logo-small-top {
+  height: 30px;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+/* Carousel en events */
+.events-section {
+  border-top: 2px solid black;
+  background-color: #99bbff;
+  color: black;
+}
+
+.events-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo-small-left {
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
+.event-image {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.custom-arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+}
+
+.arrow-img {
+  width: 50px;
+}
+
+/* OUR ARTISTS */
+.our-artist-section {
+  border-top: 2px solid black;
+  background-color: #fff;
+  color: black;
+}
+
+.artist-card img {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.artist-card img:hover {
+  transform: scale(1.05);
+}
+
+/* HOW TO JOIN US */
+.how-to-join-section {
+  border-top: 2px solid black;
+  background-color: #ccff33;
+  color: black;
+}
+
+/* MERCH */
+.merch-section {
+  border-top: 2px solid black;
+  background-color: #fff;
+  color: black;
+}
+
+.product-box {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.product-box:hover {
+  transform: translateY(-5px);
+}
+
+.product-title {
+    color: black;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.product-title span {
+    font-weight: normal;
+    color: #555;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background-color: black;
+}
+
+
+/*ARTISTS*/
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* LOGO ARRIBA */
+.logo-img-top {
+  width: 600px;
+  height: auto;
+  padding: 6px;
+}
+
+.avatar-img {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.divider-line {
+  border: none;
+  border-top: 3px solid black;
+  margin: 1rem 0;
+}
+
+/* TABLA DE CONTENIDO */
+.table-layout {
+  border: 2px solid black;
+}
+
+/* BORDES ENTRE FILAS Y COLUMNAS */
+.border-row {
+  border-top: 2px solid black;
+}
+.row > .col-md-4:last-child,
+.row > .col-12:last-child,
+.row > .col-md-12:last-child {
+  border-right: none;
+}
+
+/* TEXTO */
+.artist-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+.artist-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.artist-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* IMÁGENES */
+img.img-fluid {
+  width: 90%;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+img.img-fluid:hover {
+  transform: scale(1.03);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .artist-name {
+    font-size: 2rem;
+  }
+  .artist-title {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
